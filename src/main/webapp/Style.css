@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+}
+
+.formulario {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+}
+
+.label-style {
+    color: blue;
+    font-weight: bold;
+}
+
+h1 {
+    color: #2E8B57;
+}
+
+.button-style {
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button-style:hover {
+    background-color: #45a049;
+}
+.cabecalhoApresentacao {
+    text-align: center;
+}
+
+.nomes {
+    text-align: left;
+}
+
+.matriculas {
+    text-align: right;
+}
+
+.link {
+color: white;
+}
+
